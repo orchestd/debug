@@ -1,7 +1,7 @@
 package debug
 
 import (
-	"github.com/orchestd/debug/dependencybundler/interfaces/transport"
+	"github.com/orchestd/dependencybundler/interfaces/transport"
 )
 
 func InitHandlers(router transport.IRouter, m Debug) {
